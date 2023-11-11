@@ -58,3 +58,12 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 
 You can then execute your native executable with: `./target/quarkus-api-1.0.0-SNAPSHOT-runner`
 
+## Endpoints
+```
+- GET 
+localhost:8080/hello
+localhost:8080/film/{filmId}
+localhost:8080/pagedFilms/{page}/{minLength}
+localhost:8080/actors/{startWith}/{minLength}
+````
+To use these endpoints, replace the placeholders with appropriate values.
